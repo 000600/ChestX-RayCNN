@@ -10,9 +10,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Define paths
-train_path = '/content/drive/MyDrive/ML/Chest X-Ray Data/train'
-test_path = '/content/drive/MyDrive/ML/Chest X-Ray Data/test'
-val_path = '/content/drive/MyDrive/ML/Chest X-Ray Data/val'
+train_path = ' < PATH TO TRAIN SET IMAGES > '
+test_path = ' < PATH TO TEST SET IMAGES > '
+val_path = ' < PATH TO VALIDATION SET IMAGES > '
 
 # Set batch size and epochs
 batch_size = 64
