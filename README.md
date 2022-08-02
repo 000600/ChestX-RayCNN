@@ -11,7 +11,7 @@ This convolutional neural networks predicts whether a patient is normal or if th
 - 1 Max pooling 2D layer (with a pooling size of (2, 2) and strides of (2, 2) and "valid" padding)
 - 1 Conv2D layer (with 30 filters, a kernel size of (3, 3), and a ReLU activation function)
 - 1 Flatten layer
-- 2 Hidden layers (each with either 128 or 64 neurons and a ReLU activation function
+- 3 Hidden layers (each with either 128, 64, or 32 neurons and a ReLU activation function)
 - 1 Dropout layer (in between the two hidden layers and with a dropout rate of 0.2)
 - 1 Output neuron (with 4 neurons and a softmax activation function)
 
