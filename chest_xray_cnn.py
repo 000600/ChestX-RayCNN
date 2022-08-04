@@ -71,7 +71,7 @@ early_stopping = EarlyStopping(min_delta = 0.001, patience = 10, restore_best_we
 model.compile(optimizer = opt, loss = CategoricalCrossentropy(), metrics = [CategoricalAccuracy(), AUC()])
 history = model.fit(train_iter, steps_per_epoch = int(round(train_iter.samples / train_iter.batch_size)), epochs = epochs, validation_data = val_iter, validation_steps = int(round(val_iter.samples / batch_size)))
 
-# Visualize  loss and validation loss
+# Visualize loss and validation loss
 history_dict = history.history
 loss = history_dict['loss']
 val_loss = history_dict['val_loss']
