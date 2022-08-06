@@ -31,7 +31,7 @@ val_generator = ImageDataGenerator(rescale = 1 / 255)
 val_iter = val_generator.flow_from_directory(val_path, class_mode = 'categorical', color_mode = 'grayscale', batch_size = batch_size)
 
 # Define classes
-class_map = {0 : "COVID-19", 1 : "Normal", 2 : 'Pneumonia', 3 : "Tuberculosis"}
+class_map = train_iter.class_indices
 
 # Initialize Adam Optimizer
 opt = Adam(learning_rate = 0.001)
