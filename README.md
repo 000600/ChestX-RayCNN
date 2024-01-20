@@ -15,15 +15,15 @@ This convolutional neural network predicts whether a patient is healthy or if th
 - 1 Dropout layer (in between the two hidden layers and with a dropout rate of 0.2)
 - 1 Output layer (with 4 neurons and a softmax activation function)
 
+Feel free to further tune the hyperparameters or build upon the model!
+
+## The Dataset
+The dataset used here can be found at this link: https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis. Credit for the dataset collection goes to **Hubert Serowski**, **Khizar Khan**, **Adryn H.**, and others on *Kaggle*. The dataset contains approximately 6566 training images, 801 testing images, and 48 validation images (7135 images total). Note that the images from the original dataset are considered grayscale. The dataset is not included in the repository because it is too large to stably upload to Github, so use the link above to find and download the dataset.
+
 When running the **chest_xray_cnn.py** file, you will need to input the paths of the training, testing, and validation datasets (three paths total) as strings. These paths need to be inputted where the file reads:
 - " < PATH TO TRAIN SET IMAGES > " 
 - " < PATH TO TEST SET IMAGES > "
 - " < PATH TO VALIDATION SET IMAGES > " 
-
-Feel free to further tune the hyperparameters or build upon the model!
-
-## The Dataset
-The dataset used here can be found at this link: https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis. Credit for the dataset collection goes to **Hubert Serowski**, **Khizar Khan**, **Adryn H.**, and others on *Kaggle*. The dataset contains approximately 6566 training images, 801 testing images. and 48 validation images (7135 images total). Note that the images from the original dataset are considered grayscale. The dataset is not included in the repository because it is too large to stabley upload to Github, so just use the link above to find and download the dataset.
 
 ## Libraries
 This neural network was created with the help of the Tensorflow library.
