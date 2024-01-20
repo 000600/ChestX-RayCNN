@@ -13,7 +13,7 @@ This convolutional neural network predicts whether a patient is healthy or if th
 - 1 Flatten layer
 - 3 Hidden layers (each with either 128, 64, or 32 neurons and a ReLU activation function)
 - 1 Dropout layer (in between the two hidden layers and with a dropout rate of 0.2)
-- 1 Output neuron (with 4 neurons and a softmax activation function)
+- 1 Output layer (with 4 neurons and a softmax activation function)
 
 When running the **chest_xray_cnn.py** file, you will need to input the paths of the training, testing, and validation datasets (three paths total) as strings. These paths need to be inputted where the file reads:
 - " < PATH TO TRAIN SET IMAGES > " 
