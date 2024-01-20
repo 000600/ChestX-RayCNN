@@ -118,7 +118,7 @@ print(f'\nTest accuracy: {test_acc * 100}%')
 # Get inputs
 sample_inputs, sample_labels = val_iter.next()
 
-# Change this number to view more or less input images and corresponding predictins and lables
+# Change this number to view more or less input images and corresponding predictions and labels
 num_viewed_inputs = 10
 
 # Get inputs and corresponding labels and predictions
